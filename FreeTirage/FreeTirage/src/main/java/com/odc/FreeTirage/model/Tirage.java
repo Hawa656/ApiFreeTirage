@@ -1,12 +1,12 @@
 package com.odc.FreeTirage.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Data;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 
 @Entity
 @Data
@@ -16,5 +16,13 @@ public class Tirage {
     private Long idTirage;
     private Date date;
     private String libelle;
+/*
+    @JsonIgnore
+    @OneToMany(mappedBy = "Tirage")
+    List<ListeTirage> ListeTirage = new ArrayList<>();
+*/
+    @ManyToOne
+    @JoinColumn(name = "Tirage")
+    private ListePostulants listePostulants;
 
 }

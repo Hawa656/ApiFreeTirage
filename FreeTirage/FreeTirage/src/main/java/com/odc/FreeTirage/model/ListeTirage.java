@@ -1,11 +1,11 @@
 package com.odc.FreeTirage.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.*;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
+import java.util.ArrayList;
+import java.util.List;
 
 @NoArgsConstructor
 @AllArgsConstructor
@@ -15,4 +15,14 @@ public class ListeTirage {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id_listeTirage;
+
+    @ManyToOne
+    @JoinColumn(name = "Tirage")
+    private Tirage Tirage;
+/*
+    @JsonIgnore
+    @OneToMany(mappedBy = "ListeTirage")
+    List<PostulantTire> PostulantTire = new ArrayList<>();
+*/
+
 }

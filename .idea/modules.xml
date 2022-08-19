@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
+=======
+      <module fileurl="file://$PROJECT_DIR$/.idea/ApiFreeTirage.iml" filepath="$PROJECT_DIR$/.idea/ApiFreeTirage.iml" />
+>>>>>>> origin/main
       <module fileurl="file://$PROJECT_DIR$/FreeTirage/FreeTirage/FreeTirage.iml" filepath="$PROJECT_DIR$/FreeTirage/FreeTirage/FreeTirage.iml" />
     </modules>
   </component>

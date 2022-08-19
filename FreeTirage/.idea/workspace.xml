@@ -4,34 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4deea7ed-2344-463d-acdd-07530345552e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/FreeTirage/src/main/java/com/odc/FreeTirage/Controller/ListePostulantsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FreeTirage/src/main/java/com/odc/FreeTirage/Controller/ListeTirageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FreeTirage/src/main/java/com/odc/FreeTirage/Controller/PostulantTireController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FreeTirage/src/main/java/com/odc/FreeTirage/Controller/PostulantsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FreeTirage/src/main/java/com/odc/FreeTirage/Controller/TirageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FreeTirage/src/main/java/com/odc/FreeTirage/ServiceImplementation/ListePostulantImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FreeTirage/src/main/java/com/odc/FreeTirage/ServiceImplementation/ListeTirageImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FreeTirage/src/main/java/com/odc/FreeTirage/ServiceImplementation/PostulantTireImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FreeTirage/src/main/java/com/odc/FreeTirage/ServiceImplementation/PostulantsImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FreeTirage/src/main/java/com/odc/FreeTirage/ServiceImplementation/TirageImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FreeTirage/src/main/java/com/odc/FreeTirage/service/ListePostulantService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FreeTirage/src/main/java/com/odc/FreeTirage/service/ListeTirageService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FreeTirage/src/main/java/com/odc/FreeTirage/service/PostulantTireService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FreeTirage/src/main/java/com/odc/FreeTirage/service/PostulantsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FreeTirage/src/main/java/com/odc/FreeTirage/service/TirageService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_08_2022_11_31__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_08_2022_11_31__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_08_2022_11_31__Changes_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19_08_2022_11_31__Changes_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_19_08_2022_10_21__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_19_08_2022_10_21__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FreeTirage/src/main/java/com/odc/FreeTirage/model/ListePostulants.java" beforeDir="false" afterPath="$PROJECT_DIR$/FreeTirage/src/main/java/com/odc/FreeTirage/model/ListePostulants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FreeTirage/src/main/java/com/odc/FreeTirage/model/ListeTirage.java" beforeDir="false" afterPath="$PROJECT_DIR$/FreeTirage/src/main/java/com/odc/FreeTirage/model/ListeTirage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FreeTirage/src/main/java/com/odc/FreeTirage/model/PostulantTire.java" beforeDir="false" afterPath="$PROJECT_DIR$/FreeTirage/src/main/java/com/odc/FreeTirage/model/PostulantTire.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FreeTirage/src/main/java/com/odc/FreeTirage/model/Postulants.java" beforeDir="false" afterPath="$PROJECT_DIR$/FreeTirage/src/main/java/com/odc/FreeTirage/model/Postulants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FreeTirage/src/main/java/com/odc/FreeTirage/model/Tirage.java" beforeDir="false" afterPath="$PROJECT_DIR$/FreeTirage/src/main/java/com/odc/FreeTirage/model/Tirage.java" afterDir="false" />
-    </list>
+    <list default="true" id="4deea7ed-2344-463d-acdd-07530345552e" name="Changes" comment="modification2" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -118,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660910741842</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="modification2">
+      <created>1660929226088</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1660929226088</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -148,6 +128,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="1insert" />
     <MESSAGE value="trois classe creer" />
-    <option name="LAST_COMMIT_MESSAGE" value="trois classe creer" />
+    <MESSAGE value="modification2" />
+    <option name="LAST_COMMIT_MESSAGE" value="modification2" />
   </component>
 </project>

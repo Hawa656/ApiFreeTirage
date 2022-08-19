@@ -1,0 +1,15 @@
+Index: FreeTirage/src/main/java/com/odc/FreeTirage/model/ListePostulants.java
+===================================================================
+diff --git a/FreeTirage/src/main/java/com/odc/FreeTirage/model/ListePostulants.java b/FreeTirage/src/main/java/com/odc/FreeTirage/model/ListePostulants.java
+--- a/FreeTirage/src/main/java/com/odc/FreeTirage/model/ListePostulants.java	
++++ b/FreeTirage/src/main/java/com/odc/FreeTirage/model/ListePostulants.java	
+@@ -1,4 +1,9 @@
+ package com.odc.FreeTirage.model;
+ 
+ public class ListePostulants {
++    private int id_postulants;
++    private String nom;
++    private String prenom;
++    private int numero;
++    private String email;
+ }

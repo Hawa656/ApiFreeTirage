@@ -2,11 +2,10 @@ package com.odc.FreeTirage.model;
 
 import lombok.*;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 
 
 @NoArgsConstructor
@@ -19,6 +18,5 @@ public class ListePostulants {
     private int id_listepostulants;
     private Date date;
     private String libele;
-
 
 }

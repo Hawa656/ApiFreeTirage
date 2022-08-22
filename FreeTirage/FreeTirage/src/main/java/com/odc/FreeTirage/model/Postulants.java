@@ -4,12 +4,12 @@ package com.odc.FreeTirage.model;
 import lombok.*;
 
 import javax.persistence.*;
-import java.util.ArrayList;
-import java.util.List;
 
-@Data
 @Entity
 @NoArgsConstructor
+@Setter
+@Getter
+@AllArgsConstructor
 public class Postulants {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
@@ -25,8 +25,15 @@ public class Postulants {
         this.numero = numero;
         this.email = email;
     }
+/*public Postulants(String nom, String prenom, String numero, String email) {
+        this.nom = nom;
+        this.prenom = prenom;
+        this.numero = numero;
+        this.email = email;
+    }
 
-  /*  @ManyToMany
+
+    @ManyToMany
     @JoinTable(name = "ListePostulants", joinColumns = { @JoinColumn(name = "id_postulants") }, inverseJoinColumns = {
             @JoinColumn(name = "id_listepostulants") })
     List<ListePostulants> listePostulant = new ArrayList<>();*/

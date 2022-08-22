@@ -15,7 +15,7 @@ import java.util.List;
 public class ListePostulants {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id_listepostulants;
+    private Long id_listepostulants;
     private Date date;
     private String libele;
 

@@ -9,10 +9,11 @@ import javax.persistence.Id;
 
 @NoArgsConstructor
 @AllArgsConstructor
-@Data
+@Setter
+@Getter
 @Entity
 public class ListeTirage {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id_listeTirage;
+    private Long id_listeTirage;
 }

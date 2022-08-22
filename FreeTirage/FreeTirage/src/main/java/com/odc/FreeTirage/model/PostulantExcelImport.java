@@ -1,15 +1,23 @@
 package com.odc.FreeTirage.model;
 
+import com.odc.FreeTirage.model.Postulants;
+import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 
+import javax.persistence.Entity;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
+
 
 public class PostulantExcelImport {
     public List<Postulants> excelImport(MultipartFile file) {

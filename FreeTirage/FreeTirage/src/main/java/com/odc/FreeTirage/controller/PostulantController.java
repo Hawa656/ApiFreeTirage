@@ -7,11 +7,12 @@ import com.odc.FreeTirage.service.ServiceListPostulant;
 import com.odc.FreeTirage.service.ServicePostulants;
 import lombok.AllArgsConstructor;
 import org.springframework.data.repository.query.Param;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
@@ -23,9 +24,8 @@ public class PostulantController {
     final private ServicePostulants servicePostulants;
     final  private ServiceListPostulant serviceListPostulant;
 
-    @RequestMapping("/import/excel/{libele}")
-    @ResponseBody
-    public String importFormatExcel(@Param("file") MultipartFile file, ListePostulants liste, String libele){
+    @PostMapping("/import/excel/{libele}")
+    public String importFormatExcel(@Param("file") MultipartFile file, ListePostulants liste, String libelle){
         PostulantExcelImport excelImporter = new PostulantExcelImport();
         List<Postulants> postulantsList = excelImporter.excelImport(file);
         if(postulantsList.size() == 0){
@@ -34,11 +34,17 @@ public class PostulantController {
             liste.setDate(new Date());
             ListePostulants l = serviceListPostulant.creerListe(liste);
             for (Postulants p:postulantsList){
-              p.setIdliste(l);
+                p.setIdliste(l);
             }
             servicePostulants.enregistrer(postulantsList);
-            return "import avec succes";
+            if(postulantsList.size() == 0){
+                return "xxxxxxxxxxxxxx";
+            }else {
+                return "import avec succes";
+            }
+
         }
 
     }
 }
+

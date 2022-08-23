@@ -4,31 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1257472-139c-4ccc-9569-563b64f19cfd" name="Changes" comment="Importation du fichiers Excel 200ok">
-      <change afterPath="$PROJECT_DIR$/FreeTirage/FreeTirage/src/main/java/com/odc/FreeTirage/controller/PostulantListController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FreeTirage/FreeTirage/src/main/java/com/odc/FreeTirage/controller/PostulantTrieController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FreeTirage/FreeTirage/src/main/java/com/odc/FreeTirage/controller/TirageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FreeTirage/FreeTirage/src/main/java/com/odc/FreeTirage/service/PostulantTrieService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FreeTirage/FreeTirage/src/main/java/com/odc/FreeTirage/service/TirageService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FreeTirage/FreeTirage/src/main/java/com/odc/FreeTirage/serviceImplt/PostulantTrieServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FreeTirage/FreeTirage/src/main/java/com/odc/FreeTirage/serviceImplt/TirageServiceImpl.java" afterDir="false" />
+    <list default="true" id="d1257472-139c-4ccc-9569-563b64f19cfd" name="Changes" comment="dernières revision">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FreeTirage/FreeTirage/src/main/java/com/odc/FreeTirage/controller/PostulantController.java" beforeDir="false" afterPath="$PROJECT_DIR$/FreeTirage/FreeTirage/src/main/java/com/odc/FreeTirage/controller/PostulantController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FreeTirage/FreeTirage/src/main/java/com/odc/FreeTirage/model/ListePostulants.java" beforeDir="false" afterPath="$PROJECT_DIR$/FreeTirage/FreeTirage/src/main/java/com/odc/FreeTirage/model/ListePostulants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FreeTirage/FreeTirage/src/main/java/com/odc/FreeTirage/model/ListeTirage.java" beforeDir="false" afterPath="$PROJECT_DIR$/FreeTirage/FreeTirage/src/main/java/com/odc/FreeTirage/model/ListeTirage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FreeTirage/FreeTirage/src/main/java/com/odc/FreeTirage/model/PostulantExcelImport.java" beforeDir="false" afterPath="$PROJECT_DIR$/FreeTirage/FreeTirage/src/main/java/com/odc/FreeTirage/model/PostulantExcelImport.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FreeTirage/FreeTirage/src/main/java/com/odc/FreeTirage/model/PostulantTire.java" beforeDir="false" afterPath="$PROJECT_DIR$/FreeTirage/FreeTirage/src/main/java/com/odc/FreeTirage/model/PostulantTire.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FreeTirage/FreeTirage/src/main/java/com/odc/FreeTirage/model/Postulants.java" beforeDir="false" afterPath="$PROJECT_DIR$/FreeTirage/FreeTirage/src/main/java/com/odc/FreeTirage/model/Postulants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FreeTirage/FreeTirage/src/main/java/com/odc/FreeTirage/model/Tirage.java" beforeDir="false" afterPath="$PROJECT_DIR$/FreeTirage/FreeTirage/src/main/java/com/odc/FreeTirage/model/Tirage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FreeTirage/FreeTirage/src/main/java/com/odc/FreeTirage/repository/ListPostulRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/FreeTirage/FreeTirage/src/main/java/com/odc/FreeTirage/repository/ListPostulRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FreeTirage/FreeTirage/src/main/java/com/odc/FreeTirage/repository/ListTirageRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/FreeTirage/FreeTirage/src/main/java/com/odc/FreeTirage/repository/ListTirageRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FreeTirage/FreeTirage/src/main/java/com/odc/FreeTirage/repository/PostulantTireRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/FreeTirage/FreeTirage/src/main/java/com/odc/FreeTirage/repository/PostulantTireRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FreeTirage/FreeTirage/src/main/java/com/odc/FreeTirage/repository/PostulantsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/FreeTirage/FreeTirage/src/main/java/com/odc/FreeTirage/repository/PostulantsRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FreeTirage/FreeTirage/src/main/java/com/odc/FreeTirage/repository/TirageRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/FreeTirage/FreeTirage/src/main/java/com/odc/FreeTirage/repository/TirageRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FreeTirage/FreeTirage/src/main/java/com/odc/FreeTirage/service/ServiceListPostulant.java" beforeDir="false" afterPath="$PROJECT_DIR$/FreeTirage/FreeTirage/src/main/java/com/odc/FreeTirage/service/ServiceListPostulant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FreeTirage/FreeTirage/src/main/java/com/odc/FreeTirage/service/ServicePostulants.java" beforeDir="false" afterPath="$PROJECT_DIR$/FreeTirage/FreeTirage/src/main/java/com/odc/FreeTirage/service/ServicePostulants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FreeTirage/FreeTirage/src/main/java/com/odc/FreeTirage/serviceImplt/PostulantImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/FreeTirage/FreeTirage/src/main/java/com/odc/FreeTirage/serviceImplt/PostulantImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FreeTirage/FreeTirage/src/main/java/com/odc/FreeTirage/serviceImplt/ServiceListPostImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/FreeTirage/FreeTirage/src/main/java/com/odc/FreeTirage/serviceImplt/ServiceListPostImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="soul" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -132,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660910714592</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="TIrage et import ok">
+      <created>1661191962129</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1661191962129</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -150,7 +134,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="class" />
     <MESSAGE value="class&#10;postul&#10;tirage add" />
-    <option name="LAST_COMMIT_MESSAGE" value="class&#10;postul&#10;tirage add" />
+    <MESSAGE value="TIrage et import ok" />
+    <option name="LAST_COMMIT_MESSAGE" value="TIrage et import ok" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

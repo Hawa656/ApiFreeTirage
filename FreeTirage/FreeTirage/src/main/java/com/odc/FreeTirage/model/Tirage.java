@@ -9,7 +9,7 @@ import java.util.Date;
 
 @Entity
 @Data
-@AllArgsConstructor
+
 @NoArgsConstructor
 public class Tirage {
     @Id
@@ -18,7 +18,12 @@ public class Tirage {
     private Date date;
     private String libelle;
 
-
+    public Tirage(Long idTirage, Date date, String libelle) {
+        super();
+        this.idTirage = idTirage;
+        this.date = date;
+        this.libelle = libelle;
+    }
 }
 
 

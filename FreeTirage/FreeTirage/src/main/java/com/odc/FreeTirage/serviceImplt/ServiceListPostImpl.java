@@ -6,6 +6,8 @@ import com.odc.FreeTirage.service.ServiceListPostulant;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 @Service
 @AllArgsConstructor
 public class ServiceListPostImpl implements ServiceListPostulant {
@@ -18,5 +20,10 @@ public class ServiceListPostImpl implements ServiceListPostulant {
     @Override
     public ListePostulants trouverListeParLibelle(String libelle) {
         return listPostulRepository.findByLibele(libelle);
+    }
+
+    @Override
+    public List<ListePostulants> affiche(ListePostulants listePostulants) {
+        return listPostulRepository.findAll();
     }
 }

@@ -13,6 +13,7 @@ public interface ListPostulRepository extends JpaRepository<ListePostulants, Lon
 
     ListePostulants findByLibele(String libelle);
 
+
     /*@Modifying
     @Transactional
     @Query(value = "insert into postulants idlist_id_liste values = :idlist_id_liste", nativeQuery = true)

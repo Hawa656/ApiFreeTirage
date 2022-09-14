@@ -120,4 +120,9 @@ public class PostulantImpl implements ServicePostulants {
 
         return postulantsRepository.FINDIDPOSTLIST(idListe);
     }
+
+    @Override
+    public List<Postulants> affichee(Postulants postulants) {
+        return postulantsRepository.findAll();
+    }
 }

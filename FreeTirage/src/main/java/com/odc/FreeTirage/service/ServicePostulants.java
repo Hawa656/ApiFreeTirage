@@ -16,5 +16,6 @@ public interface ServicePostulants {
     Postulants creerPostulant(Postulants postulants);
 
     List<Postulants>TrouveridPostList(Long idListe);
+    List<Postulants> affichee(Postulants postulants);
 
 }

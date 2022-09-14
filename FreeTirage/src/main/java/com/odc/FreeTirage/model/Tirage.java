@@ -4,15 +4,12 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 import java.util.Date;
 
 @Entity
 @Data
-@AllArgsConstructor
+
 @NoArgsConstructor
 public class Tirage {
     @Id
@@ -21,4 +18,12 @@ public class Tirage {
     private Date date;
     private String libelle;
 
+    public Tirage(Long idTirage, Date date, String libelle) {
+        super();
+        this.idTirage = idTirage;
+        this.date = date;
+        this.libelle = libelle;
+    }
 }
+
+

@@ -3,13 +3,13 @@ package com.odc.FreeTirage.controller;
 import com.odc.FreeTirage.model.ListePostulants;
 import com.odc.FreeTirage.service.ServiceListPostulant;
 import lombok.AllArgsConstructor;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
 
 @RestController
 @RequestMapping("/Listepostulants")
+@CrossOrigin(origins = "http://localhost:4200")
 @AllArgsConstructor
 public class PostulantListController {
 
@@ -19,6 +19,10 @@ public class PostulantListController {
     public ListePostulants create(@RequestBody ListePostulants listePostulants){
 
         return serviceListPostulant.creerListe(listePostulants);
+    }
+    @GetMapping("/voir")
+    public List<ListePostulants> aff(ListePostulants listePostulants) {
+        return serviceListPostulant.affiche(listePostulants);
     }
 
 }

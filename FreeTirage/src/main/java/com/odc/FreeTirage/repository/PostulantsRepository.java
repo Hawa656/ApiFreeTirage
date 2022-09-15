@@ -16,5 +16,6 @@ public interface PostulantsRepository extends JpaRepository<Postulants, Long> {
     @Query(value = "select * from postulants where idliste_id_listepostulants = :id_listepostulants", nativeQuery = true)
     public List<Postulants> FINDIDPOSTLIST(@Param("id_listepostulants") Long id_listepostulants);
   //  Postulants findByEmail(String email);
-
+    @Query(value = "SELECT COUNT(*) FROM `postulants` ;",nativeQuery = true)
+    public int NombrePostulants();
 }

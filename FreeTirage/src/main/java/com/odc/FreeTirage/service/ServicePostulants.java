@@ -17,5 +17,6 @@ public interface ServicePostulants {
 
     List<Postulants>TrouveridPostList(Long idListe);
     List<Postulants> affichee(Postulants postulants);
+    public int nombrePostulant();
 
 }

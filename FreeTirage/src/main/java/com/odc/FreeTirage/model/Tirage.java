@@ -24,6 +24,9 @@ public class Tirage {
         this.date = date;
         this.libelle = libelle;
     }
+    @ManyToOne
+    @JoinColumn(name = "liste_postulants_id_listepostulants")
+    private ListePostulants listePostulants;
 }
 
 

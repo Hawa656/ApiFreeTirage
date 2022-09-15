@@ -12,6 +12,11 @@ import java.util.List;
 @CrossOrigin(origins = "http://localhost:4200")
 @AllArgsConstructor
 public class PostulantListController {
+    //on donne un chemin d'accès qui va nous permettre d'afficher (dans postman pour le moment)
+ /*   @GetMapping("/nombreListe")
+    public int nombreListe(){
+        return serviceListPostulant.nombreListe();
+    }*/
 
     private final ServiceListPostulant serviceListPostulant;
 
@@ -23,6 +28,16 @@ public class PostulantListController {
     @GetMapping("/voir")
     public List<ListePostulants> aff(ListePostulants listePostulants) {
         return serviceListPostulant.affiche(listePostulants);
+
     }
+    //chemin pour calculer le nombre total de listes tires
+    @GetMapping("/NombreListeTire")
+    public int recupererTouteLesListes(){
+        //*********************** .size() Renvoie le nombre d'éléments ***************************
+        return serviceListPostulant.recupererListeTire().size();
+
+    }
+
+
 
 }

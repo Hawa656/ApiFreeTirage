@@ -5,7 +5,6 @@ import com.odc.FreeTirage.model.Tirage;
 import com.odc.FreeTirage.repository.TirageRepository;
 import com.odc.FreeTirage.service.TirageService;
 import lombok.AllArgsConstructor;
-import lombok.NoArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
@@ -51,6 +50,16 @@ public class TirageServiceImpl implements TirageService {
     public Tirage trouverTirageParLibelle(String libelle) {
 
         return tirageRepository.findByLibelle(libelle);
+    }
+
+    @Override
+    public int nombreTirage() {
+        return tirageRepository.NombreTirage();
+    }
+    //total tirage
+    @Override
+    public int findAllNombreTirage() {
+        return tirageRepository.findAll().size();
     }
 
 }

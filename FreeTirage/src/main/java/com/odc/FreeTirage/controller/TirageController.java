@@ -33,6 +33,8 @@ public class TirageController {
     public  String create(@RequestBody Tirage tirage, @PathVariable String libelle_liste, @PathVariable Long nbre){
         ListePostulants liste = serviceListPostulant.trouverListeParLibelle(libelle_liste);
         List<Postulants> postulants = servicePostulants.TrouveridPostList(liste.getId_listepostulants());
+        tirage.setListePostulants(liste);
+        serviceListPostulant.mettreAJourLeNombredeListe(liste);
 
         List<Postulants> lp = tirageService.Creer(tirage, postulants, nbre);//recuperation des id des postulant tiré
          long idTirage = tirageService.trouverTirageParLibelle(tirage.getLibelle()).getIdTirage();
@@ -42,5 +44,14 @@ public class TirageController {
          }
 
          return "succes";
+    }
+    @GetMapping("/nombreTirage")
+    public int nombretirage() {
+        return tirageService.nombreTirage();
+    }
+    // chemin total tirage
+    @GetMapping("/totalTirage")
+    public int totalTirage(){
+        return tirageService.findAllNombreTirage();
     }
 }

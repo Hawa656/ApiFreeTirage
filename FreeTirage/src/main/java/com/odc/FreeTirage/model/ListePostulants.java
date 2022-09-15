@@ -18,6 +18,6 @@ public class ListePostulants {
     private Long id_listepostulants;
     private Date date;
     private String libele;
-    private  Long NombreTirage;
+    private  int NombreTirage;
 
 }

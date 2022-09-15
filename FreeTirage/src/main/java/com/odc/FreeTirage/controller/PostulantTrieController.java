@@ -3,9 +3,7 @@ package com.odc.FreeTirage.controller;
 import com.odc.FreeTirage.service.PostulantTrieService;
 import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.CrossOrigin;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/PostulantTrie")
@@ -20,6 +18,9 @@ public class PostulantTrieController {
 
         return postulantTrieService.creer(idpostulant, nom, prenom, numero, email,idtirage_id);
     }
-
+    @GetMapping("/posttire/{idtirage}")
+    public Iterable<Object[]> affToutTirage(@PathVariable long idtirage ){
+        return postulantTrieService.Postulanttire(idtirage);
+    }
 
 }

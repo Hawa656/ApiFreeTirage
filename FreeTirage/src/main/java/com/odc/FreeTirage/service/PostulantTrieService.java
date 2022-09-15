@@ -6,4 +6,6 @@ import org.springframework.stereotype.Service;
 public interface PostulantTrieService {
 
     int creer(Long idpostulant, String nom, String prenom, String numero, String email, Long idtirage_id);
+
+    Iterable<Object[]> Postulanttire(long idtirage);
 }

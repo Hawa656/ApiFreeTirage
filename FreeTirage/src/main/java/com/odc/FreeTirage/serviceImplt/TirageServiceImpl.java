@@ -62,4 +62,9 @@ public class TirageServiceImpl implements TirageService {
         return tirageRepository.findAll().size();
     }
 
+    @Override
+    public Iterable<Object[]> ToutTirageIdliste(long id_listepostulants) {
+        return tirageRepository.RequetteAfficher(id_listepostulants);
+    }
+
 }

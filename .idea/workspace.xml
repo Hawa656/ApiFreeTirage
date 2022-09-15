@@ -4,7 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1257472-139c-4ccc-9569-563b64f19cfd" name="Changes" comment="Importation du fichiers Excel 200ok" />
+    <list default="true" id="d1257472-139c-4ccc-9569-563b64f19cfd" name="Changes" comment="ajoute de cross_origine et de mai">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FreeTirage/src/main/java/com/odc/FreeTirage/controller/PostulantTrieController.java" beforeDir="false" afterPath="$PROJECT_DIR$/FreeTirage/src/main/java/com/odc/FreeTirage/controller/PostulantTrieController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FreeTirage/src/main/java/com/odc/FreeTirage/controller/TirageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/FreeTirage/src/main/java/com/odc/FreeTirage/controller/TirageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FreeTirage/src/main/java/com/odc/FreeTirage/model/ListePostulants.java" beforeDir="false" afterPath="$PROJECT_DIR$/FreeTirage/src/main/java/com/odc/FreeTirage/model/ListePostulants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FreeTirage/src/main/java/com/odc/FreeTirage/model/PostulantTire.java" beforeDir="false" afterPath="$PROJECT_DIR$/FreeTirage/src/main/java/com/odc/FreeTirage/model/PostulantTire.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FreeTirage/src/main/java/com/odc/FreeTirage/repository/PostulantTireRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/FreeTirage/src/main/java/com/odc/FreeTirage/repository/PostulantTireRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FreeTirage/src/main/java/com/odc/FreeTirage/repository/TirageRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/FreeTirage/src/main/java/com/odc/FreeTirage/repository/TirageRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FreeTirage/src/main/java/com/odc/FreeTirage/service/PostulantTrieService.java" beforeDir="false" afterPath="$PROJECT_DIR$/FreeTirage/src/main/java/com/odc/FreeTirage/service/PostulantTrieService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FreeTirage/src/main/java/com/odc/FreeTirage/service/ServiceListPostulant.java" beforeDir="false" afterPath="$PROJECT_DIR$/FreeTirage/src/main/java/com/odc/FreeTirage/service/ServiceListPostulant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FreeTirage/src/main/java/com/odc/FreeTirage/service/TirageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/FreeTirage/src/main/java/com/odc/FreeTirage/service/TirageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FreeTirage/src/main/java/com/odc/FreeTirage/serviceImplt/PostulantTrieServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/FreeTirage/src/main/java/com/odc/FreeTirage/serviceImplt/PostulantTrieServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FreeTirage/src/main/java/com/odc/FreeTirage/serviceImplt/ServiceListPostImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/FreeTirage/src/main/java/com/odc/FreeTirage/serviceImplt/ServiceListPostImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FreeTirage/src/main/java/com/odc/FreeTirage/serviceImplt/TirageServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/FreeTirage/src/main/java/com/odc/FreeTirage/serviceImplt/TirageServiceImpl.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,17 +67,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/HCCOULIBALY/Desktop/ApiFreeTirage",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/HCCOULIBALY/Desktop/ApiFreeTirage&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\sbbore\Desktop\projet api web\Apigestionregions\ApiFreeTirage\FreeTirage\FreeTirage" />

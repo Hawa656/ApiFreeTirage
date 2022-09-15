@@ -14,7 +14,7 @@ public interface ServiceListPostulant {
     int nombreListe();
      */
 //pour que à chaque fois qu'on fait un tirage sur une liste ,le nombre de tirage soit afficher
-      ListePostulants mettreAJourLeNombredeListe(ListePostulants listePostulants);
+      ListePostulants mettreAJourLeNombredeListe(Long listePostulants);
 //*********methode qui va nous permettre de calculer le nombre total de tirage des listes********************
     List<ListePostulants> recupererListeTire();
 

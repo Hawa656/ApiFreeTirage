@@ -16,4 +16,6 @@ public interface TirageService {
     // total tirage
 
     int findAllNombreTirage();
+
+    Iterable<Object[]> ToutTirageIdliste(long id_listepostulants);
 }

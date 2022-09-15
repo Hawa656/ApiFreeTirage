@@ -18,4 +18,9 @@ public class PostulantTrieServiceImpl implements PostulantTrieService {
     public int creer(Long idpostulant, String nom, String prenom, String numero, String email, Long idtirage_id) {
         return postulantTireRepository.INSERTPOSTTIRE(idpostulant, nom, prenom, numero, email, idtirage_id);
     }
+
+    @Override
+    public Iterable<Object[]> Postulanttire(long idtirage) {
+        return postulantTireRepository.VoirpostulantTire(idtirage);
+    }
 }

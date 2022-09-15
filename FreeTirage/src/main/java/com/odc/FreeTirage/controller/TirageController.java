@@ -12,6 +12,7 @@ import lombok.NoArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.Date;
 import java.util.List;
 
 @RestController
@@ -30,11 +31,20 @@ public class TirageController {
     private final ServiceListPostulant serviceListPostulant;
 
     @PostMapping("/createTirage/{libelle_liste}/{nbre}")
-    public  String create(@RequestBody Tirage tirage, @PathVariable String libelle_liste, @PathVariable Long nbre){
+    public  String create(@RequestBody Tirage tirage, @PathVariable("libelle_liste") String libelle_liste, @PathVariable Long nbre){
+
         ListePostulants liste = serviceListPostulant.trouverListeParLibelle(libelle_liste);
+
         List<Postulants> postulants = servicePostulants.TrouveridPostList(liste.getId_listepostulants());
+
         tirage.setListePostulants(liste);
-        serviceListPostulant.mettreAJourLeNombredeListe(liste);
+
+        serviceListPostulant.mettreAJourLeNombredeListe(liste.getId_listepostulants());
+
+        Date d = new Date();
+        tirage.setDate(d);
+
+
 
         List<Postulants> lp = tirageService.Creer(tirage, postulants, nbre);//recuperation des id des postulant tiré
          long idTirage = tirageService.trouverTirageParLibelle(tirage.getLibelle()).getIdTirage();
@@ -45,6 +55,13 @@ public class TirageController {
 
          return "succes";
     }
+
+    @GetMapping("/toutTirageIdListe/{id_listepostulants}")
+    public Iterable<Object[]> affToutTirage(@PathVariable long id_listepostulants ){
+        return tirageService.ToutTirageIdliste(id_listepostulants);
+    }
+
+
     @GetMapping("/nombreTirage")
     public int nombretirage() {
         return tirageService.nombreTirage();

@@ -8,7 +8,8 @@ import javax.persistence.*;
 @Entity
 public class PostulantTire {
     @Id
-    //@GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
     private  Long idPostulants;
     private String nom;
     private String prenom;

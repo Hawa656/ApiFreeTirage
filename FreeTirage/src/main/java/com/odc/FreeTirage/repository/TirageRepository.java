@@ -12,4 +12,10 @@ public interface TirageRepository extends JpaRepository<Tirage, Long> {
     @Query(value = "Select COUNT(*) FROM tirage ;", nativeQuery = true)
     public int NombreTirage();
 
+    @Query(value = "SELECT * from tirage where (tirage.liste_postulants_id_listepostulants=:id_listepostulants)",nativeQuery = true)
+    Iterable<Object[]> RequetteAfficher(long id_listepostulants);
+
+
+
+
 }

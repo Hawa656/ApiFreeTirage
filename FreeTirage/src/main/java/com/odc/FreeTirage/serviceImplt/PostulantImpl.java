@@ -125,4 +125,9 @@ public class PostulantImpl implements ServicePostulants {
     public List<Postulants> affichee(Postulants postulants) {
         return postulantsRepository.findAll();
     }
+
+    @Override
+    public int nombrePostulant() {
+        return postulantsRepository.NombrePostulants();
+    }
 }

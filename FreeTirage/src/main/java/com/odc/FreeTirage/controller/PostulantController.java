@@ -50,5 +50,11 @@ public class PostulantController {
     public List<Postulants> affichee(Postulants postulants) {
         return servicePostulants.affichee(postulants);
     }
+    @GetMapping("/NombrePostulant")
+    public int nombrePostulant()
+    {
+
+        return servicePostulants.nombrePostulant();
+    }
 }
 

@@ -10,4 +10,13 @@ public interface ServiceListPostulant {
     ListePostulants creerListe(ListePostulants listePostulants);
     ListePostulants trouverListeParLibelle(String libelle);
     List<ListePostulants> affiche(ListePostulants listePostulants);
+    /*//**2** on declare une methode qui est lier à notre repository et on va dans serviceImpl
+    int nombreListe();
+     */
+//pour que à chaque fois qu'on fait un tirage sur une liste ,le nombre de tirage soit afficher
+      ListePostulants mettreAJourLeNombredeListe(ListePostulants listePostulants);
+//*********methode qui va nous permettre de calculer le nombre total de tirage des listes********************
+    List<ListePostulants> recupererListeTire();
+
+
 }

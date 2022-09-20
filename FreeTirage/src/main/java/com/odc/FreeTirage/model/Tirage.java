@@ -17,12 +17,14 @@ public class Tirage {
     private Long idTirage;
     private Date date;
     private String libelle;
+    private Long nbreTire;
 
-    public Tirage(Long idTirage, Date date, String libelle) {
+    public Tirage(Long idTirage, Date date, String libelle, Long nbreTire) {
         super();
         this.idTirage = idTirage;
         this.date = date;
         this.libelle = libelle;
+        this.nbreTire = nbreTire;
     }
     @ManyToOne
     @JoinColumn(name = "liste_postulants_id_listepostulants")

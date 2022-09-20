@@ -38,6 +38,7 @@ public class TirageController {
         List<Postulants> postulants = servicePostulants.TrouveridPostList(liste.getId_listepostulants());
 
         tirage.setListePostulants(liste);
+        tirage.setNbreTire(nbre);
 
         serviceListPostulant.mettreAJourLeNombredeListe(liste.getId_listepostulants());
 
